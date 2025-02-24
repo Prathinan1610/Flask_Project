@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inventory Management</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Navbar -->
+    <nav class="bg-gray-800 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="/" class="text-2xl font-bold">Inventory Management</a>
+            <div class="space-x-4">
+                <a href="/products" class="hover:text-gray-300">Manage Products</a>
+                <a href="/locations" class="hover:text-gray-300">Manage Locations</a>
+                <a href="/movements" class="hover:text-gray-300">Product Movements</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="flex flex-col items-center justify-center h-screen text-center px-6">
+        <h1 class="text-4xl font-bold mb-4">Welcome to Inventory Management</h1>
+        <p class="text-lg text-gray-600 mb-6">Keep track of your products and locations efficiently.</p>
+        <div class="space-x-4">
+            <a href="/products" class="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-700 transition">
+                Manage Products
+            </a>
+            <a href="/locations" class="px-6 py-3 bg-green-600 text-white rounded-lg shadow-lg hover:bg-green-700 transition">
+                Manage Locations
+            </a>
+            <a href="/movements" class="px-6 py-3 bg-purple-600 text-white rounded-lg shadow-lg hover:bg-purple-700 transition">
+                View Movements
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
+
